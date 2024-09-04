@@ -9,7 +9,7 @@ import Navbar from "@/components/Navbar";
 import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
-//import Archive from "@/components/Archive";
+import Archive from "@/components/Archive";
 
 export default function Home() {
   return (
@@ -34,11 +34,11 @@ export default function Home() {
           <div className="h-[88vh] mx-auto p-4">
             {/*<Banner />*/}
             <About />
-           {/* <Experience />
-            <Projects />
+           {/* <Experience /> */}
+           {/* <Projects /> */}
             <Archive />
-            <Contact />*/}
-            <Footer />
+           {/* <Contact />*/}
+            <Footer /> 
           </div>
           <motion.div
             initial={{ opacity: 0 }}
