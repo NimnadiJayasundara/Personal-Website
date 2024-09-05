@@ -1,11 +1,11 @@
 import About from "@/components/About";
-//import Banner from "@/components/Banner";
+import Banner from "@/components/Banner";
 //import Contact from "@/components/Contact";
-//import Experience from "@/components/Experience";
+import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
-//import Projects from "@/components/Projects";
+import Projects from "@/components/Projects";
 import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
@@ -32,10 +32,10 @@ export default function Home() {
             <LeftSide />
           </motion.div>
           <div className="h-[88vh] mx-auto p-4">
-            {/*<Banner />*/}
+            <Banner />
             <About />
-           {/* <Experience /> */}
-           {/* <Projects /> */}
+            <Experience />
+            <Projects /> 
             <Archive />
            {/* <Contact />*/}
             <Footer /> 
