@@ -1,6 +1,6 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
-//import Contact from "@/components/Contact";
+import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import LeftSide from "@/components/LeftSide";
@@ -37,7 +37,7 @@ export default function Home() {
             <Experience />
             <Projects /> 
             <Archive />
-           {/* <Contact />*/}
+            <Contact />
             <Footer /> 
           </div>
           <motion.div
