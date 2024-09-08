@@ -1,55 +1,43 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import Amazon from "./ui/Amazon";
-import Apple from "./ui/Apple";
-import Google from "./ui/Google";
-import ReactBD from "./ui/ReactBD";
-import Splash from "./ui/Splash";
+import Ousl from "./ui/Ousl";
+import Uos from "./ui/Uos";
+import Uom from "./ui/Uom";
+import Vgc from "./ui/Vgc";
 
 const Experience = () => {
-  const [workReactbd, setWorkReactbd] = useState(true);
-  const [workGoogle, setWorkGoogle] = useState(false);
-  const [workApple, setWorkApple] = useState(false);
-  const [workSplash, setWorkSplash] = useState(false);
-  const [workAmazon, setWorkAmazon] = useState(false);
+  const [workUom, setWorkUom] = useState(true);
+  const [workUos, setWorkUos] = useState(false);
+  const [workOusl, setWorkOusl] = useState(false);
+  const [workVgc, setWorkVgc] = useState(false);
 
-  const handleReactbd = () => {
-    setWorkReactbd(true);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(false);
+  const handleUom = () => {
+    setWorkUom(true);
+    setWorkUos(false);
+    setWorkOusl(false);
+    setWorkVgc(false);
   };
 
-  const handleGoogle = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(true);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(false);
+  const handleUos = () => {
+    setWorkUom(false);
+    setWorkUos(true);
+    setWorkOusl(false);
+    setWorkVgc(false);
   };
 
-  const handleApple = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(true);
-    setWorkSplash(false);
-    setWorkAmazon(false);
+  const handleOusl = () => {
+    setWorkUom(false);
+    setWorkUos(false);
+    setWorkOusl(true);
+    setWorkVgc(false);
   };
-  const handleSplash = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(true);
-    setWorkAmazon(false);
+  const handleVgc = () => {
+    setWorkUom(false);
+    setWorkUos(false);
+    setWorkOusl(false);
+    setWorkVgc(true);
   };
-  const handleAmazon = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(true);
-  };
+
   return (
     <section
       id="experience"
@@ -59,9 +47,9 @@ const Experience = () => {
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li
-            onClick={handleReactbd}
+            onClick={handleUom}
             className={`${
-              workReactbd
+              workUom
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
@@ -69,51 +57,40 @@ const Experience = () => {
             University of Moratuwa
           </li>
           <li
-            onClick={handleGoogle}
+            onClick={handleUos}
             className={`${
-              workGoogle
+              workUos
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+          >
+            University of Sabaragamuwa
+          </li>
+          <li
+            onClick={handleOusl}
+            className={`${
+              workOusl
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+          >
+            Open University of Sri Lanka
+          </li>
+          <li
+            onClick={handleVgc}
+            className={`${
+              workVgc
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Vishaka Girls' College
           </li>
-          <li
-            onClick={handleApple}
-            className={`${
-              workApple
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Apple
-          </li>
-          <li
-            onClick={handleSplash}
-            className={`${
-              workSplash
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Splash
-          </li>
-          <li
-            onClick={handleAmazon}
-            className={`${
-              workAmazon
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Amazon
-          </li>
         </ul>
-        {workReactbd && <ReactBD />}
-        {workGoogle && <Google />}
-        {workApple && <Apple />}
-        {workSplash && <Splash />}
-        {workAmazon && <Amazon />}
+        {workUom && <Uom />}
+        {workUos && <Uos />}
+        {workOusl && <Ousl />}
+        {workVgc && <Vgc />}
       </div>
     </section>
   );

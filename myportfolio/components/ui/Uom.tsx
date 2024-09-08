@@ -10,34 +10,33 @@ const ReactBD = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Engineer
-        <span className="text-textGreen tracking-wide">@ReactBD</span>
+        Undergraduate
+        <span className="text-textGreen tracking-wide">@University of Moratuwa</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2023 - present
+        2021 - present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Write modern, performant, maintainable code for a diverse array of
-          client and internal projects
+          Acquired a broad understanding of information technology, including software development, 
+          system design, and database management.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Work with a variety of different languages, platforms, frameworks, and
-          content management systems such as JavaScript, TypeScript, Gatsby,
-          React, Craft, WordPress, Prismic, and Netlify
+          Developed skills in project management, strategic planning, and organizational behavior, 
+          integrating technology with business strategies.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Communicate with multi-disciplinary teams of engineers, designers,
-          producers, and clients on a daily basis
+          Engaged in practical projects and real-world applications, enhancing both technical proficiency and managerial 
+          capabilities through experiential learning.
         </li>
       </ul>
     </motion.div>

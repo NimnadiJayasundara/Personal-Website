@@ -1,4 +1,4 @@
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
+import { interfaceImg, interface2Img } from "@/public/assets";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
@@ -14,14 +14,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href=""
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={amazonImg}
-                alt="amazonImg"
+                src={interface2Img}
+                alt="interface2Img"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -29,41 +29,42 @@ const Projects = () => {
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
-                Featured Project
+                Individual Project (Ongoing)
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Travel Transport Management System</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+            A specialized Transportation Management System (TMS) designed for tourism and travel agencies 
+            is needed to streamline these processes, ensuring {" "} 
+            <span className="text-textGreen"> effective vehicle maintenance, efficient trip management, 
+              accurate driver assignment, and optimized route planning 
+              </span> {" "}to enhance operational efficiency and improve the customer experience.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
+              <li>Reactjs</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>MySQL</li>
               <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/NimnadiJayasundara"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/WzMtRfzkP-Q"
+                href=""
                 target="_blank"
               >
                 <AiOutlineYoutube />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://nextamazon.reactbd.com/"
+                href=""
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -76,58 +77,58 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.noormohmmad.com/"
+            href="https://imsfrontend.vercel.app/"
             target="_blank"
           >
             <div>
-              <Image
+            <Image
                 className="w-full h-full object-contain"
-                src={cyberImg}
-                alt="cyberImg"
+                src={interfaceImg}
+                alt="interfaceImg"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
-                Featured Project
+                Group Project
               </p>
-              <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
+              <h3 className="text-2xl font-bold">Intern Management System</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-              A full functional Cyber Security Blog where you can view the
-              latest post and{" "}
-              <span className="text-textGreen">comments on</span> it by passing
-              your ideas besides you can try to add your own{" "}
-              <span className="text-textGreen">post</span> on it by logging on
-              the portal.
+            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            Second year (2023 - 2024) software project mentored by <span className="text-textGreen">99X</span>.
+            This focuses on developing a platform that enables companies to {" "}
+            <span className="text-textGreen">effectively manage their interns</span>.
+            This platform also incorporates mentoring features, allowing for a
+            seamless integration of mentoring parties to enhance the intern
+            experience.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Sanity</li>
-              <li>React Hook Form</li>
+              <li>Reactjs</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Tharusha-2000/InternManagementSystemFrontend-using-MERN-stack"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/49Fx963su1I"
+                href=""
                 target="_blank"
               >
                 <AiOutlineYoutube />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://www.noormohmmad.com/"
+                href="https://imsfrontend.vercel.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -136,18 +137,18 @@ const Projects = () => {
           </div>
         </div>
         {/* ============ project Two End here ================== */}
-        {/* ============ project Three Start here ============== */}
+        {/* ============ project Three Start here ============== 
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://noorshop.netlify.app/"
+            href=""
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={noorShop}
-                alt="noorShop"
+                src={a}
+                alt="a"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -175,21 +176,21 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href=""
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/fi0nQc25xAw"
+                href=""
                 target="_blank"
               >
                 <AiOutlineYoutube />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://noorshop.netlify.app/"
+                href=""
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -197,7 +198,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* ============ project Three End here ================== */}
+         ============ project Three End here ================== */}
       </div>
     </section>
   );

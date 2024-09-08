@@ -30,10 +30,10 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a web developer with 4+ years of experience in React. I have a
-        strong foundation in front-end & back-end development and am skilled in
-        creating user-friendly and responsive web applications using React and
-        its ecosystem.{" "}
+        I enjoy creating things that
+            live on the internet. Passionate about creating innovative IT solutions,
+            I aim to contribute to projects that enhance productivity while ensuring
+            creativity and societal well-being.<br></br>{" "}
         <a href="https://www.noormohammad.live/" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
