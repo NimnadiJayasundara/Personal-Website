@@ -96,7 +96,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Intern Management System</h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md">
             Second year (2023 - 2024) software project mentored by <span className="text-textGreen">99X</span>.
             This focuses on developing a platform that enables companies to {" "}
             <span className="text-textGreen">effectively manage their interns</span>.

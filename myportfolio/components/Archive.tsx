@@ -9,7 +9,7 @@ const Archive = () => {
     <div className="max-w-contentContainer mx-auto px-4 py-24">
       <div className="w-full flex flex-col items-center">
         <h2 className="text-3xl font-titleFont font-semibold">
-          Other Noteworthy Projects
+          Other Noteworthy Activities
         </h2>
         <p className="text-sm font-titleFont text-textGreen">
           view the archive
@@ -17,10 +17,12 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Educare Engligh Learning Academy"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+          title="Understanding Software Firm Functions"
+          des=" 
+          This includes understanding their approach to developing and 
+          deploying software solutions, their focus on innovation, and 
+          how they address industry-specific needs and challenges through technology."
+          listItem={[""]}
           link="https://www.educareenglishlearningacademy.com/"
         />
         <ArchiveCard
@@ -37,6 +39,7 @@ const Archive = () => {
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
           link="https://reactbd.com/"
         />
+        {/*
         <ArchiveCard
           title="Amazon Clone with login, cart-option and payment intrigation."
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -58,7 +61,7 @@ const Archive = () => {
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
           link="https://portfolioone.reactbd.com/"
         />
-
+*/}
         {showMore && (
           <>
             <motion.div
@@ -100,6 +103,7 @@ const Archive = () => {
                 link="https://my-blog-delta-eight.vercel.app/"
               />
             </motion.div>
+            {/*
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -178,6 +182,7 @@ const Archive = () => {
                 link="https://youtubetodo.vercel.app/"
               />
             </motion.div>
+            */}
           </>
         )}
       </div>
